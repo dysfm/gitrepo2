@@ -3,6 +3,7 @@ package com.fm;
 public class Student {
     private String name;
     private int age;
+    private boolean sex;
 
     public Student() {
     }
@@ -20,9 +21,6 @@ public class Student {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
 
     public void setAge(int age) {
         this.age = age;
