@@ -21,6 +21,13 @@ public class Student {
         this.name = name;
     }
 
+    public boolean isSex() {
+        return sex;
+    }
+
+    public void setSex(boolean sex) {
+        this.sex = sex;
+    }
 
     public void setAge(int age) {
         this.age = age;
